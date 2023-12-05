@@ -48,6 +48,15 @@ Roles:
   Implement system updates and patches.
   Troubleshoot technical issues.
 
+6. Payment and Billing:
+
+Characteristics:
+Process payments securely.
+Verify payment information.
+Handle cancellations and refunds.
+Generate invoices and receipts.
+Integrate with payment gateways.
+
 2.4 Operating Environment
 
 The Hotel Reservation System operates on standard hardware (e.g., computers and servers), is compatible with common operating systems (such as Windows, Linux, and macOS), and requires a stable network connection for seamless access and data exchange.
@@ -58,7 +67,17 @@ Assumptions:
   It is assumed that users have basic internet connectivity for accessing the Hotel Reservation System.
   Users are expected to have modern web browsers for an optimal user experience.
   The system assumes that the provided information during registration is accurate and valid.
-
+  
+Stable Internet Connection:
+    It is assumed that users have a stable internet connection to access the hotel reservation system.
+User Authentication:
+    Users are assumed to provide accurate authentication information (username/password) during the login process.
+Data Accuracy:
+    The accuracy of information provided by users, such as personal details and payment information, is assumed.
+System Security:
+    It is assumed that the system implements adequate security measures to protect user data, including encryption for 
+    sensitive information.
+    
 Dependencies:
   The successful operation of the Hotel Reservation System depends on the availability and reliability of third-party payment gateways for processing financial transactions.
   The system relies on a secure and stable internet connection to communicate with external services and to ensure real-time updates of room availability.
